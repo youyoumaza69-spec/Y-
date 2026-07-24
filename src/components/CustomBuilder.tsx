@@ -25,7 +25,7 @@ const BUILDER_FORMATS: FormatOption[] = [
     meatsCount: 1,
     category: 'tacos',
     description: 'Galette, viande et sauce au choix, sauce gruyère, frites, crudités.',
-    image: '/src/assets/images/french_tacos_classic_1784775203858.jpg'
+    image: '/images/french_tacos_classic_1784775203858.jpg'
   },
   {
     id: 'b-tacos-royal',
@@ -34,7 +34,7 @@ const BUILDER_FORMATS: FormatOption[] = [
     meatsCount: 1,
     category: 'tacos',
     description: 'Galette, viande et sauce au choix, sauce gruyère, frites, crudités + Supplément Cheddar & Œuf.',
-    image: '/src/assets/images/french_tacos_royal_1784775217008.jpg'
+    image: '/images/french_tacos_royal_1784775217008.jpg'
   },
   {
     id: 'b-tacos-mustang',
@@ -43,7 +43,7 @@ const BUILDER_FORMATS: FormatOption[] = [
     meatsCount: 2,
     category: 'tacos',
     description: 'Double galette et double viande, sauces, maxi frites, crudités & sauce gruyère faite maison.',
-    image: '/src/assets/images/french_tacos_mustang_1784775231459.jpg'
+    image: '/images/french_tacos_mustang_1784775231459.jpg'
   },
   {
     id: 'b-roule-maison',
@@ -52,7 +52,7 @@ const BUILDER_FORMATS: FormatOption[] = [
     meatsCount: 1,
     category: 'roules',
     description: 'Pâte à pizza, 1 viande au choix, sauce, crudités, frites, sauce gruyère faite maison.',
-    image: '/src/assets/images/roule_maison_photo_1784775731078.jpg'
+    image: '/images/roule_maison_photo_1784775731078.jpg'
   },
   {
     id: 'b-roule-royal',
@@ -61,7 +61,7 @@ const BUILDER_FORMATS: FormatOption[] = [
     meatsCount: 1,
     category: 'roules',
     description: 'Pâte à pizza, 1 viande au choix, sauce, crudités, frites, sauce gruyère faite maison, supplément cheddar & œuf.',
-    image: '/src/assets/images/roule_royal_photo_1784775744532.jpg'
+    image: '/images/roule_royal_photo_1784775744532.jpg'
   },
   {
     id: 'b-roule-maxi-royal',
@@ -70,7 +70,7 @@ const BUILDER_FORMATS: FormatOption[] = [
     meatsCount: 2,
     category: 'roules',
     description: 'Pâte à pizza, 2 viandes au choix, sauce, crudités, frites, sauce gruyère faite maison, supplément cheddar & œuf.',
-    image: '/src/assets/images/roule_maxi_photo_1784775755095.jpg'
+    image: '/images/roule_maxi_photo_1784775755095.jpg'
   },
   {
     id: 'b-assiette-une-viande',
@@ -79,7 +79,7 @@ const BUILDER_FORMATS: FormatOption[] = [
     meatsCount: 1,
     category: 'assiettes',
     description: 'Une viande au choix, crudités, sauce salade, frites, sauce, pain.',
-    image: '/src/assets/images/assiette_une_viande_1784776235382.jpg'
+    image: '/images/assiette_une_viande_1784776235382.jpg'
   },
   {
     id: 'b-assiette-double-viande',
@@ -88,7 +88,7 @@ const BUILDER_FORMATS: FormatOption[] = [
     meatsCount: 2,
     category: 'assiettes',
     description: 'Deux viandes au choix, crudités, sauce salade, frites, sauce, pain.',
-    image: '/src/assets/images/assiette_double_viande_1784776249609.jpg'
+    image: '/images/assiette_double_viande_1784776249609.jpg'
   },
   {
     id: 'b-burger-cheese',
@@ -97,7 +97,7 @@ const BUILDER_FORMATS: FormatOption[] = [
     meatsCount: 1,
     category: 'burgers',
     description: 'Steak, cheddar.',
-    image: '/src/assets/images/burger_cheese_photo_1784812984852.jpg'
+    image: '/images/burger_cheese_photo_1784812984852.jpg'
   },
   {
     id: 'b-burger-double-cheese',
@@ -106,7 +106,7 @@ const BUILDER_FORMATS: FormatOption[] = [
     meatsCount: 2,
     category: 'burgers',
     description: 'Double viande, cheddar.',
-    image: '/src/assets/images/burger_double_cheese_photo_1784812997191.jpg'
+    image: '/images/burger_double_cheese_photo_1784812997191.jpg'
   },
   {
     id: 'b-burger-algerien',
@@ -115,7 +115,7 @@ const BUILDER_FORMATS: FormatOption[] = [
     meatsCount: 1,
     category: 'burgers',
     description: 'Pain suédois, steak géant.',
-    image: '/src/assets/images/burger_algerien_photo_1784813008885.jpg'
+    image: '/images/burger_algerien_photo_1784813008885.jpg'
   },
   {
     id: 'b-burger-big-bang',
@@ -124,7 +124,7 @@ const BUILDER_FORMATS: FormatOption[] = [
     meatsCount: 1,
     category: 'burgers',
     description: 'Spécial maxi pain, steak géant + cheddar.',
-    image: '/src/assets/images/burger_big_bang_photo_1784813020343.jpg'
+    image: '/images/burger_big_bang_photo_1784813020343.jpg'
   }
 ];
 

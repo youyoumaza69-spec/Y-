@@ -54,6 +54,9 @@ export const PromosFormules: React.FC<PromosFormulesProps> = ({ onSelectItem }) 
                     src={promo.image}
                     alt={promo.name}
                     referrerPolicy="no-referrer"
+                    onError={(e) => {
+                      e.currentTarget.src = 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80';
+                    }}
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute top-3 left-3 bg-orange-600 text-white text-[10px] font-black uppercase px-2.5 py-1 rounded-md shadow-md flex items-center gap-1">

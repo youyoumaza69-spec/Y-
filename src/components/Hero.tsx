@@ -129,9 +129,12 @@ export const Hero: React.FC<HeroProps> = ({
               <div className="relative rounded-3xl p-1 bg-gradient-to-b from-amber-500/40 via-orange-500/20 to-transparent shadow-2xl shadow-amber-500/20">
                 <div className="relative rounded-[22px] overflow-hidden bg-stone-900 aspect-[4/3] lg:aspect-square">
                   <img
-                    src="/src/assets/images/le_passager_hero_1784773713477.jpg"
+                    src="/images/le_passager_hero_1784773713477.jpg"
                     alt="Spécialités Le Passager Fast Food Villeurbanne"
                     referrerPolicy="no-referrer"
+                    onError={(e) => {
+                      e.currentTarget.src = 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80';
+                    }}
                     className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-700"
                   />
                   
@@ -166,9 +169,12 @@ export const Hero: React.FC<HeroProps> = ({
               {/* Decorative Secondary Mini Card */}
               <div className="absolute -bottom-6 -left-6 hidden sm:flex p-3 rounded-2xl bg-stone-900/95 border border-amber-500/30 shadow-2xl backdrop-blur-md items-center gap-3">
                 <img
-                  src="/src/assets/images/le_passager_tacos_1784773732447.jpg"
+                  src="/images/le_passager_tacos_1784773732447.jpg"
                   alt="Tacos Gratiné"
                   referrerPolicy="no-referrer"
+                  onError={(e) => {
+                    e.currentTarget.src = 'https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=600&q=80';
+                  }}
                   className="w-14 h-14 rounded-xl object-cover"
                 />
                 <div className="pr-2">

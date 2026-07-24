@@ -97,6 +97,9 @@ export const ItemModal: React.FC<ItemModalProps> = ({ item, initialQuantity = 1,
             src={item.image}
             alt={item.name}
             referrerPolicy="no-referrer"
+            onError={(e) => {
+              e.currentTarget.src = 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80';
+            }}
             className="w-full h-full object-cover object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-stone-900 via-stone-900/40 to-transparent" />

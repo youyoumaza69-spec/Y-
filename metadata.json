@@ -1,0 +1,6 @@
+{
+  "name": "Le Passager - Villeurbanne",
+  "description": "Fast-food Le Passager à Villeurbanne (70 Rue Léon Blum) - Tacos, Burgers, Roulés, Pizzas, Assiettes, Gratinages et Spécialités.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
